@@ -111,7 +111,7 @@ def add_mongo_config(app, simple_connection_string,
                                   collection_name)
         if simple_connection_string is not None:
             print("Ignoring the -m option. Overridden by "
-                  "a more specific option (-mu).", file=sys.stderr)
+                  "a more specific option (-mu).")
     else:
         # Use the default value 'sacred' when not specified
         if simple_connection_string is None:
